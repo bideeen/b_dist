@@ -5,16 +5,12 @@ It consist of two functions for now which are
 
 ### Installation
 
-pip install --index-url https://test.pypi.org/simple/ b_dist
+pip install b_dist
 
 
 ### Example
 
-:~$ python
-Python 3.7.3 (default, Mar 27 2019, 22:11:17) 
-[GCC 7.3.0] :: Anaconda, Inc. on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>> from b_dist import Guassian
->>> Guassian(10,7)
-mean 10, standard deviation 7
->>> Guassian(.4,8)
+from b_dist import Guassian
+In: Guassian(10,7)
+Out: mean 10, standard deviation 7
+
